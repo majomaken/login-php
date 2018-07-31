@@ -16,7 +16,7 @@ CREATE TABLE `user`(
     // en cuenta que también para cualquier entrada debemos tener nuestra contraseña En este caso la dejamos sin contraseña
     $password = '';
     // Aqui escribimos el nombre que le pusimos a nuestra base de datos cuando la creamos
-    $database = 'php_login_database_github';
+    $database = 'login';
 
     try {
       // $con Es una variable de coneccion que nos va permitir validar
@@ -24,7 +24,7 @@ CREATE TABLE `user`(
       // PDO (PHP Data Objects) es una libreria que nos permite conectarnos a nuestra base de datos
       // También es muy util a la hora de migrar a otro motor de base de datos
       // Esto tambien se puede hacer atravez de una funcion en php orientada a objetos
-      $con = new PDO("mysql:host=$server;dbname=$database;",$username, $password);
+      $conn = new PDO("mysql:host=$server;dbname=$database;",$username, $password);
     } catch (PDOException $e) {
       // Si la coneccion a la base de datos no fue exitosa esto obtendra el error y no lo mostrara
       //die mata el proceso si la coneccion no es exitosa
