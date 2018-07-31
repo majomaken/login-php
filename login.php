@@ -14,6 +14,8 @@
     <?php require 'partials/header.php' ?>
 
     <h1>Login</h1>
+    <span>or <a href="signup.php">SignUp</a></span>
+
       <!-- El atributo action es el lugar o la dirección a la cual se va emviar
       el formulario, por eso es tan importante. -->
       <!-- Como sabemos hay dos metodos para enviar nustro formulario
