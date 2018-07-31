@@ -58,7 +58,9 @@
       <!-- Aqui lo que decimos es: Si el mensaje($message) no esta vacio entonces
       escriba el valor del mensaje. -->
       <?php if (!empty($message)): ?>
-        <p> <?php $message ?> </p>
+        <!-- Para poder usar codigo de php dentro de html debemos interpretarlo y se hace
+        colocando un '='-->
+        <p> <?= $message ?> </p>
       <?php endif; ?>
       <h1>SignUp</h1>
       <span>or <a href="login.php">Login</a></span>

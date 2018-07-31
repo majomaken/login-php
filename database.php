@@ -1,6 +1,6 @@
 <!-- Antes de hacer esto debes crear la base de datos en phpmyAdmin. -->
 <!-- Este es el script para crear la base de datos -->
-<!-- CREATE DATABASE php_login_database_github;
+<!-- CREATE DATABASE login;
 CREATE TABLE `user`(
 	id  INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(200) UNIQUE,
