@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+
+    <!-- Con este header lo que hacemos es darle un estilo de navegación a toda
+    nuestra pagin web, haciendo de que predomine en todas las demas secciones. -->
+    <!-- Esto es llamado una etiqueta php -->
+    <?php require 'partials/header.php' ?>
+
     <h1>Login</h1>
       <!-- El atributo action es el lugar o la dirección a la cual se va emviar
       el formulario, por eso es tan importante. -->

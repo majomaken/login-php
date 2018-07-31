@@ -10,6 +10,12 @@
      <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+  
+      <!-- Con este header lo que hacemos es darle un estilo de navegación a toda
+      nuestra pagin web, haciendo de que predomine en todas las demas secciones. -->
+      <!-- Esto es llamado una etiqueta php -->
+      <?php require 'partials/header.php' ?>
+
       <h1>Please Login or SignUp</h1>
       <!-- Con estas dos opciones podremos dejar que el usuario decida que hacer
       si quiere loguear en nuestra pagina. -->
